@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "../components/Navbar"
+import Form from "../components/Form"
+import questions from "../config/questions"
 
 const LogIn = () => {
+
   return (
     <div>
-        LogIn
+        <Navbar/>
+        <Form questions={questions.logInQuestions}/>
     </div>
   )
 }

@@ -1,9 +1,13 @@
-import React from 'react'
+import Navbar from "../components/Form"
+import Form from "../components/Form"
+import questions from "../config/questions"
 
 const Register = () => {
+
   return (
     <div>
-        Register
+        <Navbar/>
+        <Form questions={questions.registerQuestions}/>
     </div>
   )
 }
